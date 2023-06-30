@@ -1,0 +1,38 @@
+body {
+    background-color: #1F1B24;
+}
+.feedback_form_main {    
+    width: max-content;
+    margin: auto;
+}
+
+.survey_title {
+    color: #aeee99;
+    font-weight: bold;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.survey_name {
+    color: #aeee99;
+    font-weight: bold;
+    font-size: larger;
+    text-align: left;    
+}
+.survey_score {
+    color: #aeee99;
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;    
+}
+.survey_box {    
+    padding: 20px;    
+}
+@media only screen and (max-width: 626px) {
+    body {
+      background-color: #1F1B24;
+      margin: auto;
+      width: 100%;
+    }
+}
+

@@ -1,0 +1,30 @@
+body {
+    width: max-content;
+    margin: auto;
+}
+.hp_rating_bar {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, max-content);
+    grid-auto-flow: column;
+    align-content: center;
+    justify-items: center;    
+    width: max-content;
+    margin: auto;
+}
+.hp_emoji {
+    background-color: darkgray;
+    display: block;
+    font-size: 40px;
+    width: max-content;
+    border: solid 1px;
+}
+.hp_emoji:hover {
+    cursor: pointer;
+}
+.hp_emoji_selected {
+    display: block;
+    background-color: #aeee99;
+    width: max-content;
+    font-size: 40px;
+    border: solid 1px;
+}
